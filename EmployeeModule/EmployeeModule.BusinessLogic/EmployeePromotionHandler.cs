@@ -41,6 +41,7 @@ public class EmployeePromotionHandler
                     if (employee.IsActive)
                     {
                         _promotionDispatcher.Dispatch(employee);
+                        employee.Promoted = true;
                     }
                 }
             }

@@ -9,6 +9,7 @@ public class Employee
     public int EvaluationPoints { get; set; }
     public DateTime HireDate { get; set; }
     public DateTime? TerminationDate { get; set; }
+    public bool Promoted { get; set; }
     
     /// <summary>
     /// Employee, AdvancedEmployee or Manager
